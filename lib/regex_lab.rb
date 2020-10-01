@@ -7,7 +7,8 @@ def starts_with_a_vowel?(word)
 end
 
 def words_starting_with_un_and_ending_with_ing(text)
-  text.grep(/\bun+\w+ing\b/) { |match|  }
+  array.push(text.grep(/\bun+\w+ing\b/)) #{ |match|  }
+  return array
 end
 
 def words_five_letters_long(text)
